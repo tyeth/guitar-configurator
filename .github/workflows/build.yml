@@ -151,6 +151,8 @@ jobs:
           mkdir artifacts
           echo inst script
           powershell ".\installer\script.ps1"
+          sudo apt install -y tree
+          tree ..
           echo binarycreator
           ..\Qt\Tools\QtInstallerFramework\*\bin\binarycreator -c installer\config\config.xml -p installer\packages artifacts\guitar-configurator-win.exe -f
           echo repogen
