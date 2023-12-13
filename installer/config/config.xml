@@ -2,14 +2,14 @@
 <Installer>
     <Name>Guitar Configurator</Name>
     <Version>1.0.0</Version>
-    <Title>Ardwiino Guitar Configurator</Title>
+    <Title>Arduino Guitar Configurator</Title>
     <Publisher>TangentMC</Publisher>
-    <StartMenuDir>Ardwiino Configurator</StartMenuDir>
+    <StartMenuDir>Arduino Configurator</StartMenuDir>
     <TargetDir>@ApplicationsDir@/TangentMC/GuitarConfigurator</TargetDir>
     <RunProgram>@TargetDir@/guitar-configurator</RunProgram>
     <RemoteRepositories>
         <Repository>
-                <Url>https://sanjay900.github.io/guitar-configurator/repository</Url>
+                <Url>https://tyeth.github.io/guitar-configurator/repository</Url>
                 <Enabled>1</Enabled>
                 <DisplayName>Main repository</DisplayName>
         </Repository>
